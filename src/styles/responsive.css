@@ -1,0 +1,250 @@
+
+
+ 
+  @media screen and (min-width: 600px) {
+    .list_item_resto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 16px;
+    }
+
+    .menu_button_style{
+      display: none;
+    }
+
+    header{
+      width: 100%;
+    }
+
+    .hero__inline{
+      border-radius: 0px;
+    }
+
+    #likeButtonContainer{
+      position: fixed;
+      right: 100px;
+      max-width: 200px;
+      top: 80%;
+    }
+    .hero{
+      width: 100%;
+    }
+
+    .head_title {
+      text-align:center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      color: white;
+      margin: 0 auto;
+      bottom: 20%;
+    }
+    
+  }
+ 
+  @media screen and (min-width: 768px) {
+    .list_item_resto{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 30px;
+      column-gap: 15px;
+    }
+
+  .menu_button_style{
+      display: none;
+    }
+
+    .head_title {
+      text-align:center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      color: white;
+      margin: 0 auto;
+      bottom: 20%;
+    }
+
+    #likeButtonContainer{
+      position: fixed;
+      right: 100px;
+      max-width: 200px;
+      top: 80%;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .list_item_resto{
+      display: grid;
+      row-gap: 15px;
+    }
+
+    nav{
+      z-index: 200;
+      background-color: white;
+      width: 100%;
+      position: absolute;
+
+      -webkit-transform: translate(0, -500px);
+      transform: translate(0, -500px);
+
+      transition: transform 0.3s ease;
+    }
+
+    .navbar-content ul{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .open{
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+
+
+    .menu_button_style{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      width: 100%;
+      font-size: 30px;
+    }
+
+    .hero__inline{
+      border-radius: 0px;
+    }
+
+    detail-content{
+      width: 100%;
+      font-size: small;
+    }
+
+    home-content{
+      width: 100%;
+      font-size: small;
+    }
+    favorite-content{
+      width: 100%;
+      font-size: small;
+    }
+    .menu_foods{
+      width: 100%;
+    }
+
+    .menu_drinks{
+      width: 100%;
+      font-size: small;
+    }
+
+    .title-explor{
+      text-align: center;
+      font-size: 0.1rem;
+    }
+
+    .hero{
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+    .detail-view{
+      width: 100%;
+    }
+
+    .restaurant_detail{
+      width: 100%;
+    }
+
+    .content_review{
+      width: 100%;
+    }
+
+    .like_button{
+      width: 100%;
+      background-color: transparent;
+    }
+
+    #likeButtonContainer{
+      width: 100%;
+    }
+
+    .content_review{
+      padding: 5px;
+    }
+    
+    
+    .review_content_list{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #EEEEEE;
+      margin-top: 5px;
+      font-size: small;
+    }
+
+    .review_content_list .tag_name {
+      padding: 5px;
+    }
+
+    .review_content_list .review {
+      padding: 5px;
+    }
+
+    main{
+      height: 9000px;
+    }
+
+    footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid red;
+      background-color: cadetblue;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 300px;
+    }
+
+    .hero_title, .hero__tagline {
+      border: 4px solid white;
+      padding: 5px 5px;
+      position: relative;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .head_title {
+      text-align:center;
+      position: absolute;
+      font-size: 10px;
+      color: white;
+      left: 0;
+      right: 0;
+      bottom: 21%;
+    }
+    
+
+    .like_button{
+      padding: 5px;
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: transparent;
+      width: 100%;
+    }
+
+    #likeButtonContainer{
+      position: static;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+      button{
+        background-color: transparent;
+        opacity: 1;
+        width: 100%;
+      }
+  }
